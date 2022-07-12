@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=IBM+Plex+Sans:wght@300&display=swap');
+
+.principal{
+width: 80%;
+}
+
+.principal img{
+width: 150%;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.caixa-pai{
+    background-color: #FFFFFF;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.simbolo img{
+    margin-left: 90px;
+    margin-top: 100px;
+    width: 250px;
+    display:flex;
+    justify-content: center;
+}
+.alinhar{
+    padding: 90px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+input[type=text] {
+    background-color: #E8E6E6;
+    height: 50px;
+    width: 280px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    }
+
+input[type=password] {
+        background-color: #E8E6E6;
+        height: 50px;
+        width: 280px;
+        font-size: 15px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: -80px;
+}
+.caixa{
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    border: none;
+}
+.icone1{
+        width:20px;
+        height: 20px;
+        padding: 5px;
+}
+label{
+    font-weight: bold;
+}
+.btn{
+    width: 51px;
+    height: 47px;
+    padding: 6px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    opacity: 0.5;
+}
+label{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 3px;
+}
+input[type=checkbox] {
+    margin-left: 15px;
+}
+li{
+    margin-left: 150px;
+    font-size: 12px;
+    list-style: none;
+    color: #A6A6A6;
+}
+.seta{
+    width: 35px;
+}
+.face{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 5px;
+    
+}
+.gmail{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #8A0000;
+    
+}
+.apple{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: black;
+    
+}
+
+.ativo{
+    opacity: 1;
+}
